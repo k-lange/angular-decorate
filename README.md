@@ -32,4 +32,5 @@ angular.module('app').decorate('$templateCache', function ($delegate) {
 ```
 
 ## Related
-Inspired by [Brian Fords](http://twitter.com/briantford) article [Hacking Core Directives in AngularJS](http://briantford.com/blog/angular-hacking-core.html).
+- Talk: [$provide.decorator() - Modifying the behavior of AngularJS' core services](http://www.slideshare.net/damienklinnert/angular-decorate)
+- Inspired by [Brian Fords](http://twitter.com/briantford) article [Hacking Core Directives in AngularJS](http://briantford.com/blog/angular-hacking-core.html).
