@@ -7,9 +7,9 @@
         var module = _module.apply(this, arguments);
 
         module.decorate = function (target, decoratorFn) {
-            module.config(function ($provide) {
+            module.config(['$provide', function ($provide) {
                 $provide.decorator(target, decoratorFn);
-            });
+            }]);
             return module;
         };
 
