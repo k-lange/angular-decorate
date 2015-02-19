@@ -16,4 +16,4 @@
         return module;
     };
 
-}(this));
+}(window));
